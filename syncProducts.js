@@ -11,7 +11,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-console.log("Stripe key:", process.env.REACT_APP_STRIPE_KEY);
+
 const stripe = new Stripe(process.env.STRIPE_TEST_KEY);
 
 async function syncProducts() {
