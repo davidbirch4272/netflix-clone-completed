@@ -13,7 +13,7 @@ import {
 import { loadStripe } from "@stripe/stripe-js";
 import "./PlansScreen.css";
 
-
+  console.log("Working?")
   const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_TEST_KEY);
 
 function PlansScreen({ onCurrentPlan }) {
