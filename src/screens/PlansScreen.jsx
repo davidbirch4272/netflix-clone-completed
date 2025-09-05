@@ -14,7 +14,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import "./PlansScreen.css";
 
   
-  const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_TEST_KEY);
+  const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 
 function PlansScreen({ onCurrentPlan }) {
   const user = useSelector(selectUser);
