@@ -47,7 +47,7 @@
  //     }
  //   }
 
-   
+  // console.log("Working?")
  // } catch (err) {
  //   console.error("❌ Error syncing products:", err);
  // }
