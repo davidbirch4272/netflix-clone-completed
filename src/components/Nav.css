@@ -38,3 +38,12 @@
     right: 20px;
     width: 30px;
 }
+
+.legal {
+  color: red;
+  font-size: 20px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
